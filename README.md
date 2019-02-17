@@ -1,2 +1,2 @@
 # MVCEvents
-MVC Events
+MVC Events app

@@ -30,3 +30,4 @@ c:\users\mayumi\source\repos\MvcEvents\MvcEvents\obj\Debug\netcoreapp2.1\MvcEven
 c:\users\mayumi\source\repos\MvcEvents\MvcEvents\obj\Debug\netcoreapp2.1\MvcEvents.dll
 c:\users\mayumi\source\repos\MvcEvents\MvcEvents\obj\Debug\netcoreapp2.1\MvcEvents.pdb
 c:\users\mayumi\source\repos\MvcEvents\MvcEvents\obj\Debug\netcoreapp2.1\MvcEvents.csproj.CopyComplete
+C:\Users\Mayumi\source\repos\MvcEvents\MvcEvents\obj\Debug\netcoreapp2.1\Razor\Views\Home\Form.g.cshtml.cs

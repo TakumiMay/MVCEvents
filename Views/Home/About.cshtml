@@ -1,7 +1,25 @@
 ﻿@{
-    ViewData["Title"] = "About";
+    ViewData["Title"] = "Estimate";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
-
-<p>Use this area to provide additional information.</p>
+<h1>Request a budget in a minute.</h1>
+<link rel="stylesheet" type="text/css" href="Estimate.css">
+<div><center>
+    
+         <div align="left">
+             <h3>What do you need?</h3>
+             <input type="text" name="eventNeed" id="eventNeed" required pattern="[áéíóúa-zA-Z0-9]+">
+             <h3>Type of event or celebration</h3>
+             <input type="text" name="eventType" id="eventType" required pattern="[áéíóúa-zA-Z0-9]+">
+             <h3>Where?</h3>
+             <input type="number" name="postalCode" id="postalCode" min="0" max="1000000" oninvalid="this.setCustomValidity('Insert a number')" oninput="this.setCustomValidity('')">
+             <h3>When?</h3>
+             <input type="date" name="bday">
+             <h3>No. of guests / attendees</h3>
+             <input type="number" name="guests" id="guests" min="0" max="10000" oninvalid="this.setCustomValidity('Insert a number')" oninput="this.setCustomValidity('')">
+             <h3>Details (minimum 30 characters)</h3>
+             <textarea name="message" rows="10" cols="30">Include all the information you can about the service you need. Do not enter your contact information here to protect your privacy.</textarea>
+             <div>
+                 <input type="submit" name="Continue" value="Continue">
+             </div>
+         </div>
+</center></div>
